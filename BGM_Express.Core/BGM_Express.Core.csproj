@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Rebex.Common" Version="7.0.8865" />
+    <PackageReference Include="Rebex.Networking" Version="7.0.8865" />
+    <PackageReference Include="Rebex.Sftp" Version="7.0.8865" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BGM_Express.Domain\BGM_Express.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
